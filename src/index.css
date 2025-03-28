@@ -1,0 +1,81 @@
+body {
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  width: 16rem;
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Side and nav bar links styling */
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  background-color: #e9ecef;
+  border-radius: 1rem;
+}
+
+.nav-link.active-link {
+  color: #007bff !important;
+}
+
+/* Disable accordion header focus */
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.league-spartan {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.fetures-img {
+  width: 8rem;
+  height: 8rem;
+  padding-bottom: 1rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(135deg, #c8e8ff, #f8f8f8);
+}
+
+.footer {
+  background-color:rgb(248, 249, 250); /* Soft gray for a subtle footer */
+  z-index: 100;
+  position: sticky;
+}
+
+#footer-div {
+  height: 1rem;
+}
+
+.gradient {
+  background: linear-gradient(135deg, #E3F2FD, #F8F9FA); /* Light blue to light gray */
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: #212529;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
